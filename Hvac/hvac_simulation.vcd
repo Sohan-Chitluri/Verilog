@@ -1,0 +1,80 @@
+$date
+	Mon Feb 17 21:48:55 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module hvac_tb $end
+$var wire 2 ! speed [1:0] $end
+$var wire 1 " idle $end
+$var wire 1 # heat $end
+$var wire 1 $ cool $end
+$var reg 8 % atemp [7:0] $end
+$var reg 8 & dtemp [7:0] $end
+$scope module uut $end
+$var wire 8 ' atemp [7:0] $end
+$var wire 8 ( dtemp [7:0] $end
+$var reg 8 ) asigned [7:0] $end
+$var reg 1 $ cool $end
+$var reg 8 * difference [7:0] $end
+$var reg 8 + dsigned [7:0] $end
+$var reg 1 # heat $end
+$var reg 1 " idle $end
+$var reg 2 , speed [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 ,
+b11010 +
+b0 *
+b11010 )
+b11010 (
+b11010 '
+b11010 &
+b11010 %
+0$
+0#
+1"
+b0 !
+$end
+#10
+b11111111 *
+b11001 )
+b11001 %
+b11001 '
+#20
+0"
+1#
+b10 !
+b10 ,
+b11111010 *
+b10100 )
+b10100 %
+b10100 '
+#30
+1"
+0#
+b0 !
+b0 ,
+b1 *
+b11011 )
+b11011 %
+b11011 '
+#40
+0"
+1$
+b10 !
+b10 ,
+b110 *
+b100000 )
+b100000 %
+b100000 '
+#50
